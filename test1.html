@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="XXX...">
+    <meta name="description" content="YYY...">
+    <meta name="author" content="ZZZ...">
+    <title>DTI - SAU 2021</title>
+    <link rel="shortcut icon" href="/images/purple.ico" type="image/x-icon">
+
+
+
+</head>
+
+<body>
+    <h1>-- From Tag--</h1>
+    <strong>ลงทะเบียนพนักงาน</strong>
+    <br><br>
+    <Form action="#" method="GET">
+        ชื่อพนังงาน : <input type="text" name="emp_name" id="">
+        <br><br>
+        อายุพนังงาน : <input type="number" name="emp_age" id="">
+        <br><br>
+        รหัสผ่าน : <input type="password" name="emp_pwd" id="">
+        <br><br>
+        รายละเอียดอื่นๆ : <textarea name="emp_other" id="" cols="25" rows="5"></textarea>
+        <br><br>
+        วัน เดือน ปีเกิด : <input type="date" name="emp_bday" id="">
+        <br><br>
+        วัน เวลา เริ่มงาน : <input type="datetime-local" name="emp_startw" id="">
+        <br><br>
+        เวลาเกิด : <input type="time" name="emp_btime" id="">
+        <br><br>
+        คำนำหน้า
+        <input type="radio" name="emp_title" id="" checked value="ดช"> ด.ช.
+        <input type="radio" name="emp_title" id="" value="2"> ด.ญ.
+        <input type="radio" name="emp_title" id="" value="นาย"> นาย
+        <input type="radio" name="emp_title" id="" value="4"> นาง
+        <input type="radio" name="emp_title" id="" value="นส"> นางสาว
+        <br><br>
+        การศึกษาสูงสุด
+        <select name="emp_educate" id="">
+            <option value="ตรี">ปริญญาตรี</option>
+            <option value="โท">ปริญญาโท</option>
+            <option value="เอก">ปริญญาเอก</option>
+        </select>
+        <br><br>
+        แผนก
+        <select name="emp_department" id="">
+            <option value="111" selected>บัญชี</option>
+            <option value="222">ไอที</option>
+            <option value="333">ช่าง</option>
+            <option value="444">บุคคล</option>
+            <option value="555">การเงิน</option>
+        </select>
+        <br><br>
+        อาหารที่ชอบ
+        <select name="emp_food" id="" size="3" multiple>
+            <option value="1">ข้าวมันไก่</option>
+            <option value="2">ข้าวขาหมู</option>
+            <option value="3">ข้าวหมูทอด</option>
+            <option value="4">ข้าวหน้าเนื้อ</option>
+            <option value="5">ข้าวต้ม</option>
+        </select>
+        <br><br>
+        น้ำที่ชอบ
+        <input type="checkbox" name="emp_water1" id="" value="coffe" checked>กาแฟ
+        <input type="checkbox" name="emp_water2" id="" value="milk">นม
+        <input type="checkbox" name="emp_water3" id="" value="tea">ชานม
+        <input type="checkbox" name="emp_water4" id="" value="fruit">ผมไม้รวม
+        <input type="checkbox" name="emp_water5" id="" value="soda">โซดา
+        <br><br>
+        ไฟล์ cv : <input type="file" name="emp_file" id="" accept="images/*">
+        <!-- ตัวไฮไลท์ ****-->
+        <input type="hidden" name="emp_flag" value="999">
+        <br><br>
+        <!--แท็ก form ที่เกี่ยวกับปุ่ม-->
+        <input type="submit" value="ตกลง ok เอา ค้นหา">
+        <input type="reset" value="ยกเลิก">
+        <button>บันทึก  ตกลง Save</button>
+        <button>ยกเลิก Cancel</button>
+
+    </Form>
+    
+</body>
+
+</html>
